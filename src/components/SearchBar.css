@@ -1,0 +1,16 @@
+.searchBar {
+  padding: 10px;
+}
+.searchBar > * {
+  width: 100%;
+}
+input {
+  padding: 10px;
+  border: 1px solid #eee;
+  background-color: #eee;
+  box-sizing: border-box;
+}
+
+input:focus {
+  background-color: #fff;
+}

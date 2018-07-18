@@ -1,0 +1,28 @@
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #def;
+}
+
+#root {
+  width: 1000px;
+  background-color: #fff;
+  margin: 0 auto;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
+}
+
+@media only screen and (max-width: 500px) {
+  #root {
+    width: 100vw;
+  }
+}
